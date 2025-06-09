@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #6ab04c;
+  color: white;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#hero {
+  background: #333 url('hero.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+form input[type="submit"] {
+  background: #6ab04c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
